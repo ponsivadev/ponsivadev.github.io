@@ -1,0 +1,27 @@
+{
+  "name": "ponsivadev.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwind build ./src/input.css -o ./assets/css/styles.css",
+    "watch-css": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponsivadev/ponsivadev.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ponsivadev/ponsivadev.github.io/issues"
+  },
+  "homepage": "https://github.com/ponsivadev/ponsivadev.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
